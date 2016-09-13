@@ -1,0 +1,26 @@
+---
+title: "Using simTools"
+author: "Doug Ashton"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Introduction
+
+You may have some data like this
+
+```{r, demo}
+library(simTools)
+head(iris)
+```
+
+and now you can sample it too:
+
+```{r, sampleit}
+sampleFromData(iris, size = 10)
+```
+
