@@ -26,3 +26,10 @@ lubridate::ymd("2016-09-13")
 #' @import dplyr
 
 # And this will add the package to your namespace
+
+
+# Data Raw ----------------------------------------------------------------
+
+# It's good practice to record how you generated your data:
+use_data_raw("simTools")
+
