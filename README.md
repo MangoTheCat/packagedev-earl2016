@@ -7,3 +7,5 @@ This repository has all of the code generated during the EARL 2016 workshop on p
 Some of the commands that only went to the console have been added to console.R with some extra notes about using package dependencies.
 
 Some extra content has been added after the end of the course. The git commit history should tell you what these things were.
+
+See [mango-solutions.com](http://www.mango-solutions.com/) for more training options and  [https://earlconf.com/](https://earlconf.com/) for upcoming EARL conferences.
